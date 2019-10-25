@@ -1,0 +1,42 @@
+{
+  "name": "@newrelic/eslint-plugin-newrelic",
+  "version": "0.3.0",
+  "description": "Eslint plugin for New Relic.",
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "eslintplugin"
+  ],
+  "author": "New Relic",
+  "license": "Apache-2.0",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NewRelic/eslint-plugin-newrelic"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.4.0",
+    "@typescript-eslint/parser": "^2.4.0",
+    "babel-eslint": "^10.0.3",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-eslint-comments": "^3.1.2",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.16.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.14.3"
+  },
+  "peerDependencies": {
+    "eslint": "^6.3.0",
+    "prettier": "^1.18.2"
+  }
+}
