@@ -1,6 +1,6 @@
 {
   "name": "@newrelic/eslint-plugin-newrelic",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Eslint plugin for New Relic.",
   "keywords": [
     "eslint",
